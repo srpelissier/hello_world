@@ -1,0 +1,10 @@
+[package]
+name = "hello_world"
+version = "0.1.0"
+authors = ["sull"]
+[dependencies]
+time = "0.1.12"
+[dependencies.color]
+git = "https://github.com/bjz/color-rs.git"
+[dependencies.hello_utils]
+path = "hello_utils"
